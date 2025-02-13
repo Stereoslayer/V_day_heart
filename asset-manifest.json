@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/v_day_heart/static/css/main.3b8e6147.css",
+    "main.css": "/v_day_heart/static/css/main.ef3ab273.css",
     "main.js": "/v_day_heart/static/js/main.eb208338.js",
     "index.html": "/v_day_heart/index.html",
-    "main.3b8e6147.css.map": "/v_day_heart/static/css/main.3b8e6147.css.map",
+    "main.ef3ab273.css.map": "/v_day_heart/static/css/main.ef3ab273.css.map",
     "main.eb208338.js.map": "/v_day_heart/static/js/main.eb208338.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b8e6147.css",
+    "static/css/main.ef3ab273.css",
     "static/js/main.eb208338.js"
   ]
 }
