@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/v_day_heart/static/css/main.ef3ab273.css",
-    "main.js": "/v_day_heart/static/js/main.eb208338.js",
+    "main.css": "/v_day_heart/static/css/main.b25b1b61.css",
+    "main.js": "/v_day_heart/static/js/main.26baf346.js",
     "index.html": "/v_day_heart/index.html",
-    "main.ef3ab273.css.map": "/v_day_heart/static/css/main.ef3ab273.css.map",
-    "main.eb208338.js.map": "/v_day_heart/static/js/main.eb208338.js.map"
+    "main.b25b1b61.css.map": "/v_day_heart/static/css/main.b25b1b61.css.map",
+    "main.26baf346.js.map": "/v_day_heart/static/js/main.26baf346.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef3ab273.css",
-    "static/js/main.eb208338.js"
+    "static/css/main.b25b1b61.css",
+    "static/js/main.26baf346.js"
   ]
 }
