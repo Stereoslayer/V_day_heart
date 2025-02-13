@@ -1,0 +1,72 @@
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fde5e5;
+  min-height: 100vh;
+  color: #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.phrase {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.heart-container {
+  position: relative;
+  width: calc((50px + 2px) * 14 - 2px);
+  height: calc((50px + 2px) * 14 - 2px);
+  margin: 0 0 0 54px;
+}
+
+.pixel {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ff69b4;
+  background-color: #ffc0cb;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pixel:hover {
+  transform: scale(1.1);
+}
+
+.pixel-text {
+  animation: colorChange 4s linear infinite alternate;
+  font-size: 20px;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ff5555;
+  }
+  50% {
+    color: #ff99aa;
+  }
+  100% {
+    color: #ff5555;
+  }
+}
